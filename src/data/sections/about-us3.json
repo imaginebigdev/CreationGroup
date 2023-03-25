@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "image1": "/img/eventAbout1.png",
+  "image2": "/img/eventAbout2.png",
+  "exp": {
+    "nmb": 12,
+    "name": "Años de experiencia"
+  },
+  "title": {
+    "first": "Experiencias empresariales inolvidables",
+    "second": ""
+  },
+  "content": {
+    "first": "Somos una empresa líder en la organización de eventos empresariales. Con más de 10 años de experiencia, nos especializamos en crear experiencias únicas e inolvidables para nuestros clientes. ",
+    "second": "Desde reuniones corporativas hasta cenas de gala, contamos con un equipo de expertos en producción de eventos que se asegura de que cada detalle sea perfecto. Nuestro objetivo es superar las expectativas de nuestros clientes y hacer que cada evento sea un éxito rotundo."
+  }
+}
