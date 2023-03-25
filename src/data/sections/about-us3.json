@@ -1,7 +1,7 @@
 {
   "id": 1,
-  "image1": "/img/eventAbout1.png",
-  "image2": "/img/eventAbout2.png",
+  "image1": "/img/EventAbout1.png",
+  "image2": "/img/EventAbout2.png",
   "exp": {
     "nmb": 12,
     "name": "Años de experiencia"
