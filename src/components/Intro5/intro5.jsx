@@ -86,7 +86,6 @@ const Intro5 = () => {
                               slide.title
                             )}
                           </h1>
-                          {slide?.content && <p>{slide.content}</p>}
                         </div>
                       </div>
                     </div>
@@ -96,7 +95,7 @@ const Intro5 = () => {
             ))}
           </Swiper>
         ) : null}
-        <div className="setting">
+        {/* <div className="setting">
           <div className="controls">
             <div
               ref={navigationNextRef}
@@ -112,7 +111,7 @@ const Intro5 = () => {
             </div>
           </div>
           <div ref={paginationRef} className="swiper-pagination"></div>
-        </div>
+        </div> */}
       </div>
     </header>
   );

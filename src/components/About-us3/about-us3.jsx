@@ -64,6 +64,7 @@ const AboutUs3 = () => {
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
                   {AboutUs3date.content.first} <br />
+                  <b>Misión: </b>
                   {AboutUs3date.content.second}
                 </p>
               </Split>

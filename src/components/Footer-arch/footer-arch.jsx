@@ -24,7 +24,7 @@ const FooterArch = () => {
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Telefono</h6>
-                    <p>+543512214907</p>
+                    <p>+54 351 221 4907</p>
                   </div>
                 </li>
               </ul>

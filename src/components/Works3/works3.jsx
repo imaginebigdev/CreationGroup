@@ -25,7 +25,9 @@ const Works3 = () => {
           <div className="row">
             <div className="col-lg-8 col-md-10">
               <div className="sec-head">
-                <h3 className="wow color-font">Algunos de nuestros eventos</h3>
+                <h3 className="wow color-font">
+                  Eventos empresariales inolvidables
+                </h3>
               </div>
             </div>
           </div>
@@ -92,20 +94,6 @@ const Works3 = () => {
                           <img src="/img/portfolio/works1.png" alt="" />
                         </span>
                       </div>
-                      <div className="cont">
-                        <h6>
-                          <Link href={`/works3/works3-dark`}>
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`/project-details2/project-details2-dark`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -115,20 +103,6 @@ const Works3 = () => {
                           <span className="wow cimgio" data-delay="500"></span>
                           <img src="/img/portfolio/works2.png" alt="" />
                         </span>
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          <Link href={`/works3/works3-dark`}>
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`/project-details2/project-details2-dark`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -140,20 +114,6 @@ const Works3 = () => {
                           <img src="/img/portfolio/works3.png" alt="" />
                         </span>
                       </div>
-                      <div className="cont">
-                        <h6>
-                          <Link href={`/works3/works3-dark`}>
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`/project-details2/project-details2-dark`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
-                      </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
@@ -163,20 +123,6 @@ const Works3 = () => {
                           <span className="wow cimgio" data-delay="500"></span>
                           <img src="/img/portfolio/works4.png" alt="" />
                         </span>
-                      </div>
-                      <div className="cont">
-                        <h6>
-                          <Link href={`/works3/works3-dark`}>
-                            art &amp; illustration
-                          </Link>
-                        </h6>
-                        <h4>
-                          <Link
-                            href={`/project-details2/project-details2-dark`}
-                          >
-                            Inspiring new space
-                          </Link>
-                        </h4>
                       </div>
                     </div>
                   </SwiperSlide>
