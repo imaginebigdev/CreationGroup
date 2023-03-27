@@ -1,4 +1,4 @@
-import React from "react";
+import react, { useState, useRef, useEffect } from "react";
 import intro5Data from "../../data/sections/intro5.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
@@ -8,17 +8,17 @@ import removeSlashFromPagination from "../../common/removeSlashpagination";
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
 const Intro5 = () => {
-  const [load, setLoad] = React.useState(true);
-  React.useEffect(() => {
+  const [load, setLoad] = useState(true);
+  useEffect(() => {
     removeSlashFromPagination();
     setTimeout(() => {
       setLoad(false);
     });
   }, []);
 
-  const navigationPrevRef = React.useRef(null);
-  const navigationNextRef = React.useRef(null);
-  const paginationRef = React.useRef(null);
+  const navigationPrevRef = useRef(null);
+  const navigationNextRef = useRef(null);
+  const paginationRef = useRef(null);
 
   return (
     <header id="arch-slider" className="slider arch-slider">
@@ -77,7 +77,7 @@ const Intro5 = () => {
                     <div className="row">
                       <div className="col-lg-6">
                         <div className="caption mt-30">
-                          <h1>
+                          <h1 style={{ fontSize: "2.7rem" }}>
                             {typeof slide.title === "object" ? (
                               <>
                                 {slide.title.first} <br /> {slide.title.second}
@@ -95,23 +95,10 @@ const Intro5 = () => {
             ))}
           </Swiper>
         ) : null}
-        {/* <div className="setting">
-          <div className="controls">
-            <div
-              ref={navigationNextRef}
-              className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
-            >
-              <i className="ion-chevron-right"></i>
-            </div>
-            <div
-              ref={navigationPrevRef}
-              className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
-            >
-              <i className="ion-chevron-left"></i>
-            </div>
-          </div>
+        <div className="setting">
+          <div className="controls"></div>
           <div ref={paginationRef} className="swiper-pagination"></div>
-        </div> */}
+        </div>
       </div>
     </header>
   );

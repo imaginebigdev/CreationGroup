@@ -75,9 +75,13 @@ const ContactArch = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8 col-md-10">
             <div className="sec-head  text-center">
-              <h2 className="wow fadeIn" data-wow-delay=".3s">
-                Contactanos
-              </h2>
+              <h3
+                style={{ fontSize: "40px" }}
+                className="wow fadeIn"
+                data-wow-delay=".3s"
+              >
+                Contacto
+              </h3>
             </div>
           </div>
         </div>
