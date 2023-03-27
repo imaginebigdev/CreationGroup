@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": {
-      "first": "Gestion y organizacion",
+      "first": "Gestion y organización",
       "second": "de eventos corporativos"
     },
 
@@ -10,8 +10,10 @@
   },
   {
     "id": 2,
-    "title": "Planificación y Conducción de Exposiciones",
-
+    "title": {
+      "first": "Planificación y",
+      "second": "Conducción de Exposiciones"
+    },
     "image": "/img/arch/slid/3.png"
   },
   {
