@@ -2,25 +2,25 @@
   {
     "id": 1,
     "title": {
-      "first": "Organizacion",
-      "second": "Eventos"
+      "first": "Gestion y organizacion",
+      "second": "de eventos corporativos"
     },
-    "content": "Texto evento",
+
     "image": "/img/arch/slid/1.png"
   },
   {
     "id": 2,
-    "title": "En todas las provincias",
-    "content": "Texto evento",
+    "title": "Planificación y Conducción de Exposiciones",
+
     "image": "/img/arch/slid/3.png"
   },
   {
     "id": 3,
     "title": {
-      "first": "Eventos",
-      "second": "Innovadores"
+      "first": "Innovación",
+      "second": "y Sustentabilidad"
     },
-    "content": "Texto evento",
+
     "image": "/img/arch/slid/2.png"
   }
 ]
